@@ -174,34 +174,40 @@ p, details {
 }
 
 .project {
-  height: 2000px;
+  height: 1600px;
 }
 
 .project-card {
   margin-top: 3%;
   display: grid;
   grid-template-columns: auto ;
-  row-gap: 40px;
+  row-gap: 60px;
   justify-content: center;
 }
 
 .card {
   width: 1000px;
-  height: 600px;
+  height: 700px;
   background-color: rgb(241, 217, 213,0.3);
   box-shadow: 0 4px 8px 0 rgba(1,1,1,0.3);
   transition: 0.5s;
   border-radius: 30px;
-  padding: 20px 20px 20px 30px;
+  padding: 40px 40px 20px 40px;
 }
 
 .card:hover {
   box-shadow: 0 10px 18px 0 rgba(1,1,1,0.3);
 }
 
+.judul {
+  float: left;
+  padding: 50px;
+  font-size: 25px;
+}
+
 .page {
   width: 65%;
-  height: 55%;
+  height: 48%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -210,13 +216,28 @@ p, details {
   border-radius: 20px;
 }
 
+.page-text {
+  text-indent: 20px;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration:none;
+}
+
 button {
-  width: 120px;
-  height: 30px;
+  margin-top: 15px;
+  display: grid;
+  width: 150px;
+  height: 40px;
   background-color: #cec7c7;
   color: #45496A;
   border: none;
-  border-radius: 20px;
+  border-radius: 15px;
+  font-size: 16px;
+  row-gap: 10px;
+  text-align: center;
+  padding: 9px;
 }
 
 button:hover {
@@ -224,7 +245,7 @@ button:hover {
 }
 
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
