@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="script.js" />
     <link rel="icon" href="https://i.postimg.cc/SsHTDsJt/Logo-Porto-1.png" />
     <script src="https://kit.fontawesome.com/cc4885a691.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,7 +32,7 @@
         <div class="container">
             <div class="about" id="about">
                 <aside class="foto">
-                    <img class="foto" src="https://i.postimg.cc/sgdH3bmB/foto.png" style="border-radius: 20px;">
+                    <img class="foto" id="foto" src="https://i.postimg.cc/sgdH3bmB/foto.png" style="border-radius: 20px;">
                 </aside>
                 <div class="description">
                     <h1>
@@ -181,18 +180,18 @@
 
     <script>
         window.onscroll = function () { myFunction() };
-
         var navbar = document.getElementById("navbar");
         var sticky = navbar.offsetTop;
 
         function myFunction() {
-            if (window.pageYOffset >= sticky) {
+            if (window.pageXOffset >= sticky) {
                 navbar.classList.add("sticky")
             } else {
                 navbar.classList.remove("sticky");
             }
         }
     </script>
+
 </body>
 
 </html>
