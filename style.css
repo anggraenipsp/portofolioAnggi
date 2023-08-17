@@ -81,7 +81,7 @@ main {
 
 .foto {
   float: right;
-  margin-top: 2%;
+  margin-top: 4.5%;
   margin-right: 13%;
   border-radius: 20px;
   height: 90%;;
@@ -118,7 +118,7 @@ h3 {
   color: #45496A;
 }
 
-p, details {
+p, ul {
   color: #7D8BAE;
 }
 
@@ -140,7 +140,7 @@ p, details {
   transition: 0.5s;
   width: 250px;
   height: 390px;
-  padding: 20px 15px 20px 30px;
+  padding: 20px 15px 20px 25px;
   border-radius: 20px;
 }
 
