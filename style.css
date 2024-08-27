@@ -138,7 +138,7 @@ p, ul {
   background-color: rgb(241, 217, 213,0.3);
   box-shadow: 0 4px 8px 0 rgba(1,1,1,0.3);
   transition: 0.5s;
-  width: 250px;
+  width: 350px;
   height: 390px;
   padding: 20px 15px 20px 25px;
   border-radius: 20px;
@@ -174,7 +174,7 @@ p, ul {
 }
 
 .project {
-  height: 1600px;
+  height: 3080px;
 }
 
 .project-card {
@@ -214,6 +214,8 @@ p, ul {
   margin-bottom: 30px;
   box-shadow: 0 4px 8px 0 rgba(1,1,1,0.5);
   border-radius: 20px;
+  object-fit: cover;
+  object-position: 100% 0;
 }
 
 .page-text {
@@ -252,7 +254,7 @@ footer {
   height: 40px;
   color: #45496A;
   text-align: center;
-  background-color: #E8CCC7;
+  background-color: rgba(255, 250, 249, 0.3);
   text-decoration: solid;
   padding: 1%;
 }
