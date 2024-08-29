@@ -29,15 +29,14 @@ html::-webkit-scrollbar,.element::-webkit-scrollbar{
 
 .logo {
   padding: 5px;
-  margin-left: 5%;
+  margin-left: 7%;
   width: 25%;
   height: 25%;
   float: left;
 }
 
 .menu {
-  margin-top: 1%;
-  margin-left: 80%;
+  margin-left: 100%;
   display: flex;
   gap: 1.5em;
   font-size: 18px;
@@ -76,7 +75,8 @@ main {
 .about {
   height: 300px;
   color: #45496A;
-  padding-top: 5%;
+  margin-top: -3%;
+  padding-top: 2%;
 }
 
 .foto {
@@ -123,7 +123,7 @@ p, ul {
 }
 
 .background {
-  height: 580px;
+  height: 520px;
 }
 
 .background-container {
@@ -139,7 +139,7 @@ p, ul {
   box-shadow: 0 4px 8px 0 rgba(1,1,1,0.3);
   transition: 0.5s;
   width: 350px;
-  height: 390px;
+  height: 350px;
   padding: 20px 15px 20px 25px;
   border-radius: 20px;
 }
@@ -174,7 +174,7 @@ p, ul {
 }
 
 .project {
-  height: 3080px;
+  height: 2320px;
 }
 
 .project-card {
